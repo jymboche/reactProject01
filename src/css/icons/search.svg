@@ -1,0 +1,12 @@
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.25">
+        <g id="Desktop" transform="translate(-972.000000, -32.000000)" fill="#000000">
+            <g id="TopBar">
+                <path d="M984.502,38.491 L983.708,38.491 L983.432,38.765 C984.407,39.902 985,41.376 985,42.991 C985,46.581 982.09,49.491 978.5,49.491 C974.91,49.491 972,46.581 972,42.991 C972,39.401 974.91,36.491 978.5,36.491 C980.115,36.491 981.588,37.083 982.725,38.057 L983.001,37.783 L983.001,36.991 L987.999,32 L989.49,33.491 L984.502,38.491 L984.502,38.491 Z M978.5,38.491 C976.014,38.491 974,40.505 974,42.991 C974,45.476 976.014,47.491 978.5,47.491 C980.985,47.491 983,45.476 983,42.991 C983,40.505 980.985,38.491 978.5,38.491 L978.5,38.491 Z" id="Shape" transform="translate(980.745000, 40.745500) scale(1, -1) translate(-980.745000, -40.745500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

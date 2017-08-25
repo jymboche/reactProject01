@@ -1,0 +1,105 @@
+/* Topbar */
+#root .topbar {
+
+  height: 64px;
+  background-image: linear-gradient(45deg, #00D1D2 0%, #4E66DC 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+  letter-spacing: 0.1px;
+  border: none;
+  display: flex;
+
+  .column-two {
+    flex: 1;
+  }
+
+  .title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+  }
+
+  input {
+    .border-radius(33);
+
+    background: rgba(0,0,0,0.20) !important;
+    box-shadow: 1px 1px 0 0 rgba(255,255,255,0.12), inset 0 0 2px 0 rgba(0,0,0,0.40);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  input::placeholder {
+    color: #fff;
+    opacity: .4;
+  }
+
+  .item {
+    height: 100%;
+  }
+
+  .right.item {
+    width: 140px;
+    height: 100%;
+  }
+
+  .right.item {
+    -webkit-transition: width 0.4s ease 0s;
+    -moz-transition: width 0.4s ease 0s;
+    -o-transition: width 0.4s ease 0s;
+    transition: width 0.4s ease 0s;
+  }
+
+  .title {
+    overflow: hidden;
+    font-size: 28px;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+  }
+
+  .input .icon {
+    opacity: .5;
+  }
+
+  &.focused {
+
+    .title {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      font-size: 0;
+    }
+
+    .right.item {
+      width: 100%;
+    }
+
+
+
+  }
+
+}
+
+
+
+.close-search {
+  .border-radius(32);
+  width: 33px;
+  height: 33px;
+  display: block;
+
+  background: rgba(255,255,255,0.30);
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.15);
+
+  background-image: url('./icons/arrow-back.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 0;
+}
